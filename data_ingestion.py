@@ -122,12 +122,39 @@ collection = client.create_collection(
     name=COLLECTION_NAME
 )
 
-collection.add(
-    ids=ids,
-    documents=documents,
-    embeddings=embeddings,
-    metadatas=metadatas
-)
+# Determine the maximum batch size supported by this ChromaDB/SQLite setup.
+# ChromaDB typically caps this around 5461 due to SQLite variable limits.
+try:
+    MAX_BATCH_SIZE = client.get_max_batch_size()
+except AttributeError:
+    # Fallback for older ChromaDB versions that lack the method
+    MAX_BATCH_SIZE = 5000
+
+# Apply a safety margin to avoid edge-case failures
+BATCH_SIZE = min(MAX_BATCH_SIZE, 5000)
+
+print(f"\nChromaDB max batch size: {MAX_BATCH_SIZE}")
+print(f"Using batch size: {BATCH_SIZE}")
+
+# Insert records in smaller batches to stay under ChromaDB's limit
+total = len(ids)
+for start in range(0, total, BATCH_SIZE):
+    end = start + BATCH_SIZE
+
+    batch_ids = ids[start:end]
+    batch_documents = documents[start:end]
+    batch_embeddings = embeddings[start:end]
+    batch_metadatas = metadatas[start:end]
+
+    collection.add(
+        ids=batch_ids,
+        documents=batch_documents,
+        embeddings=batch_embeddings,
+        metadatas=batch_metadatas
+    )
+
+    print(f"  Inserted batch {start}–{end - 1} "
+          f"({len(batch_ids)} records)")
 
 
 # --------------------------------------------------
