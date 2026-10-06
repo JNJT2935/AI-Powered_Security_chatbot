@@ -1,0 +1,2439 @@
+A computer network is a group of computers connected through wires, optical fibres or optical links so that devices can interact.
+
+The aim of a computer network is the sharing of resources among various devices.
+
+The three high-level layers of network communication are hardware, operating system, and application.
+
+At the hardware level, a network adapter is also called a network card, network interface card, or NIC.
+
+Every network adapter has a 48-bit number hard coded by its manufacturer that is unique for that device.
+
+Operating systems use IP addresses to find other computers on a network.
+
+An IP address is a 32-bit or 128-bit ID assigned to a network connection when the connection is first made.
+
+A MAC address is only used to find a computer on a local network, while an IP address can find a computer anywhere on the Internet.
+
+Most applications used on the Internet or a local network are client/server applications.
+
+Server applications provide services to client applications.
+
+Each client and server application listens at a predetermined address called a port number, port, or port address.
+
+A NIC is a device that helps the computer to communicate with another device.
+
+The two types of NIC are wireless NIC and wired NIC.
+
+A hub is a basic networking device that connects multiple devices in a network, making them act as a single network segment.
+
+A hub sends incoming data packets to all ports, regardless of the destination device.
+
+Hubs operate in half-duplex mode, meaning devices can either send or receive data at one time, but not both.
+
+A switch sends incoming data packets only to the port connected to the destination device.
+
+Switches can operate in full-duplex mode, allowing devices to send and receive data simultaneously.
+
+Twisted pair cable is a high-speed cable that transmits data over 1Gbps or more.
+
+Coaxial cable resembles a TV installation cable and is more expensive than twisted pair cable.
+
+Fibre optic cable transmits data using light beams and provides high data transmission speed.
+
+A router is a device that connects the LAN to the internet.
+
+The router is mainly used to connect distinct networks or connect the Internet to multiple computers.
+
+Communication speed means a network provides us to communicate over the network in a fast and efficient manner.
+
+File sharing is one of the major advantages of the computer network.
+
+Backup and roll back is easy because files are stored in the main server which is centrally located.
+
+Software and hardware sharing allows applications to be installed on the main server and accessed centrally.
+
+Security in a network ensures that the user has the right to access certain files and applications.
+
+Scalability means that we can add new components on the network.
+
+The way in which data is transmitted from one device to another device is known as transmission mode.
+
+In Simplex mode, the communication is unidirectional, meaning data flows in one direction.
+
+In Simplex mode, the station can utilize the entire bandwidth of the communication channel.
+
+In Half-duplex channel, direction can be reversed, meaning the station can transmit and receive data.
+
+In half-duplex mode, messages flow in both directions, but not at the same time.
+
+In half-duplex mode, when one device is sending data, another has to wait, causing delay.
+
+In Full duplex mode, the communication is bi-directional, meaning data flows in both directions.
+
+In Full duplex mode, both stations can send and receive messages simultaneously.
+
+The Full-duplex mode is the fastest mode of communication between devices.
+
+Computer Network Architecture is defined as the physical and logical design of software, hardware, protocols, and media.
+
+The two types of network architectures are Peer-To-Peer network and Client/Server network.
+
+In a Client/Server network, the central controller is known as a server while all other computers are called clients.
+
+In a Client/Server network, a server performs all major operations such as security and network management.
+
+In a Client/Server network, all clients communicate with each other through a server.
+
+In a Client/Server network, centralized servers make it easier to manage, control, and update the network.
+
+In a Client/Server network, setting up and maintaining can be expensive due to dedicated servers.
+
+In a Client/Server network, the central server represents a single point of failure.
+
+Peer-To-Peer network is a network in which all computers are linked together with equal privilege and responsibilities.
+
+Peer-To-Peer network has no dedicated server.
+
+Peer-To-Peer network is useful for small environments, usually up to 10 computers.
+
+In Peer-To-Peer network, resources like files, storage, and bandwidth can be shared directly between peers.
+
+In Peer-To-Peer network, decentralized control can make it difficult to manage and administer the network.
+
+A LAN is a network that connects computers and devices within a limited geographic area.
+
+A PAN is a network for interconnecting devices centered around an individual person's workspace.
+
+A MAN is a network that spans a metropolitan area, connecting multiple LANs within a city or a large campus.
+
+A WAN is a network that spans a large geographic area, often a country or continent, connecting multiple LANs.
+
+Point-to-point network topology is the simplest network topology used when only two computers are connected.
+
+In a bus topology, the main cable is called a common cable or a backbone cable.
+
+Terminators are devices installed on each end of the backbone cable to absorb signals and avoid reflecting signals back.
+
+Token Bus standard is used to create a logical token ring in networks built using the bus topology.
+
+In the ring network topology, each station is connected to two other stations on either side.
+
+The ring topology works in half-duplex mode because data travels sequentially in one direction.
+
+The star topology requires a centralized unit called a switch, and all other network devices connect to this switch.
+
+In star topology, there are no direct physical connections between the two stations.
+
+The tree network topology is an extension of the star topology and is widely used nowadays.
+
+Network security is essential in safeguarding sensitive data from unauthorized access, misuse, or destruction.
+
+Confidentiality ensures that data is accessed only by authorized individuals.
+
+Integrity guarantees that data remains accurate and unaltered during storage or transmission.
+
+Availability ensures that network services are accessible to users when needed.
+
+Malware is malicious software such as viruses, worms, and trojans that can damage or steal data.
+
+Phishing is fraudulent attempts to obtain sensitive information by disguising as trustworthy entities.
+
+Man-in-the-Middle attacks intercept communication between two parties to steal or alter data.
+
+Denial of Service attacks overload a network or server to disrupt services.
+
+Firewalls are devices or software that monitor and control incoming and outgoing network traffic based on security rules.
+
+Intrusion Detection Systems monitor network traffic for suspicious activity.
+
+Intrusion Prevention Systems take action to prevent detected threats.
+
+Virtual Private Networks encrypt data transmitted over the internet, ensuring secure remote access.
+
+Antivirus and Anti-malware Software protects systems from malicious software by detecting and removing threats.
+
+Strong Password Policies use complex passwords and multi-factor authentication for additional security.
+
+Network Segmentation divides the network into smaller segments to limit access and contain potential breaches.
+
+Zero Trust Architecture requires strict identity verification for every person and device trying to access resources.
+
+WannaCry ransomware attack targeted computers running Microsoft Windows by encrypting data and demanding ransom.
+
+Equifax data breach exploited a vulnerability in the Apache Struts web application framework.
+
+Target data breach used stolen credentials from a third-party vendor to access Target's network.
+
+Yahoo data breaches exposed data from all three billion user accounts.
+
+Stuxnet worm targeted Iran's nuclear facilities, specifically the centrifuges used for uranium enrichment.
+
+A layered approach divides networking concepts into several layers, with each layer assigned a particular task.
+
+The main aim of layered architecture is to have a module design.
+
+Each lower layer adds its services to the higher layer to provide a full set of services.
+
+Layered architecture ensures independence between layers by providing services from lower to higher layer without defining implementation.
+
+Any modification in a layer will not affect the other layers in layered architecture.
+
+The basic elements of layered architecture are services, protocols, and interfaces.
+
+Service is a set of actions that a layer provides to the higher layer.
+
+Protocol defines a set of rules that a layer uses to exchange information with peer entity.
+
+Interface is a way through which the message is transferred from one layer to another layer.
+
+In layered architecture, no data is transferred from layer n of one machine to layer n of another machine.
+
+Each layer passes the data to the layer immediately just below it until the lowest layer is reached.
+
+Below layer 1 is the physical medium through which the actual communication takes place.
+
+A layered architecture provides a clean-cut interface so that minimum information is shared among different layers.
+
+Divide-and-conquer approach reduces the complexity of the design by dividing unmanageable tasks into small manageable tasks.
+
+Modularity in layered architecture provides independence of layers, which is easier to understand and implement.
+
+Each layer of the layered architecture can be analyzed and tested individually.
+
+OSI stands for Open System Interconnection and is a reference model for how information moves through a physical medium.
+
+OSI consists of seven layers, and each layer performs a particular network function.
+
+OSI model was developed by the International Organization for Standardization in 1984.
+
+OSI model divides the whole task into seven smaller and manageable tasks.
+
+Each layer is self-contained so that the task assigned to each layer can be performed independently.
+
+The seven layers of the OSI model are Physical, Data-Link, Network, Transport, Session, Presentation, and Application.
+
+The physical layer transmits individual bits from one node to another node.
+
+Line configuration defines the way how two or more devices can be connected physically.
+
+Data transmission defines the transmission mode whether it is simplex, half-duplex or full-duplex.
+
+The physical layer determines the type of the signal used for transmitting the information.
+
+Framing translates the physical's raw bit stream into packets known as frames.
+
+The data link layer adds the header and trailer to the frame.
+
+The header added to the frame contains the hardware destination and source address.
+
+Error control is achieved by adding a calculated value CRC that is placed in the data link layer's trailer.
+
+When two or more devices are connected to the same communication channel, data link layer protocols determine which device has control over the link.
+
+Internetworking is the main responsibility of the network layer and provides a logical connection between different devices.
+
+The network layer adds the source and destination address to the header of the frame.
+
+Routing is the major component of the network layer and determines the best optimal path from source to destination.
+
+Packetizing receives the packets from the upper layer and converts them into packets.
+
+Service-point addressing adds a header that contains the address known as a service-point address or port address.
+
+Segmentation divides the message into multiple segments, and each segment is assigned a sequence number.
+
+Connection control provides two services: connection-oriented service and connectionless service.
+
+Flow control in the transport layer is performed end-to-end rather than across a single link.
+
+Session management handles the setup and teardown of sessions.
+
+Synchronization and recovery adds checkpoints when transmitting data in a sequence.
+
+Translation handles interoperability between different encoding methods.
+
+Encryption is a process of converting the sender-transmitted information into another form.
+
+Data compression reduces the number of bits to be transmitted.
+
+File transfer, access, and management allows a user to access files in a remote computer.
+
+Mail services provide the facility for email forwarding and storage.
+
+Directory services provide distributed database sources and global information about various objects.
+
+The TCP/IP model was developed prior to the OSI model.
+
+The TCP/IP model commonly consists of four layers: Application, Transport, Internet/Network, and Network Interface.
+
+The network interface layer is the combination of the Physical layer and Data Link layer defined in the OSI reference model.
+
+The network interface layer defines how data should be sent physically through the network.
+
+IP protocol is used in the network layer and is the most significant part of the entire TCP/IP suite.
+
+IP addressing implements logical host addresses known as IP addresses.
+
+Fragmentation splits the datagram into smaller units so that they can travel over the local network.
+
+Routing accomplishes sending IP datagrams indirectly through various devices such as routers.
+
+ARP stands for Address Resolution Protocol and is used to find the physical address from the IP address.
+
+ARP request is broadcast to the network when a sender wants to know the physical address of a device.
+
+ICMP stands for Internet Control Message Protocol and is used to send notifications regarding datagram problems.
+
+The transport layer is responsible for reliability, flow control, and correction of data.
+
+The two protocols used in the transport layer are User Datagram Protocol and Transmission Control Protocol.
+
+User Datagram Protocol provides connectionless service and end-to-end delivery of transmission.
+
+Transmission Control Protocol creates a virtual circuit between the sender and receiver.
+
+TCP is a reliable protocol as it detects the error and retransmits the damaged frames.
+
+TCP divides the whole message into smaller units known as segments at the sending end.
+
+The application layer allows the user to interact with the application.
+
+HTTP stands for Hypertext Transfer Protocol and allows access to data over the world wide web.
+
+DNS stands for Domain Name System and maps the name to the address.
+
+DHCP stands for Dynamic Host Configuration Protocol and automatically assigns IP addresses.
+
+SMTP stands for Simple Mail Transfer Protocol and is used by email servers to send and receive emails.
+
+The Internet Protocol is the method by which data is sent from one computer to another on the Internet.
+
+Each computer known as a host on the Internet has at least one IP address that uniquely identifies it.
+
+When data is sent or received, the message gets divided into little chunks called packets.
+
+Each packet contains both the sender's Internet address and the receiver's address.
+
+Every layer along the path either adds header info on the sender side or strips off the header on the receiver side.
+
+The IP packet consists of a header plus payload data.
+
+Version in the IP header indicates IPv4 or IPv6.
+
+IHL stands for Intermediate Header Length and is the actual length of the header in multiples of 32-bit.
+
+Type of Service in the IP header is used for prioritization.
+
+Total Length is the length of the Header and payload part.
+
+Identification enables the reconstruction of the initial datagram at the receiver.
+
+Flags indicate if fragmentation is allowed and if more packets are associated with the current one.
+
+Fragment Offset is the position of the first byte in this packet in relation to the original datagram.
+
+All fragments are in multiples of 8 bytes except for the last one.
+
+Time to Live is the max time this packet will live on the internet.
+
+Protocol indicates the next higher level protocol such as TCP or UDP.
+
+Header Checksum safeguards the header against corruption during transmission.
+
+Source Address is the Internet-wide IP address of the source.
+
+Destination Address is the Internet-wide IP address of the destination.
+
+Options in the IP header include security, src routing, and loose src routing.
+
+Padding consists of extra bits that complete the multiple of 32-bit.
+
+Fragmentation and reassembly occur when a datagram is larger than the Maximum Transmission Unit.
+
+Schemes used to allocate IP addresses include class-based addresses, subnetting, classless addresses, and NAT.
+
+Class A addresses have 7 bits for netid and 24 bits for hostid.
+
+Class B addresses have 14 bits for netid and 16 bits for hostid.
+
+Class C addresses have 21 bits for netid and 8 bits for hostid.
+
+Class D addresses are multicast addresses.
+
+Class E addresses are reserved.
+
+An address with a hostid of all 0's refers to the network in the netid part rather than a particular host.
+
+An address with a netid of all 0's refers to the same network as the source.
+
+An address with all 1's means broadcast the packet over the source network.
+
+An address with a hostid of all 1's means broadcast the packet over the network of the netid.
+
+A Class A address with netid of all 1's is known as a loopback address.
+
+All LANs of a site are assigned a netid.
+
+Subnetting means each LAN is known as a subnet instead of assigning each LAN with a netid.
+
+The identity of the subnet forms part of the hostid in subnetting.
+
+Subnetting introduces the concept of Address/Subnet mask.
+
+An address mask has all 1's in the netid and subnetid positions and all 0's in the hostid part.
+
+The presence of a possible large number of subnets is transparent to all Internet gateways and routers.
+
+Classless addressing means the network part of an IP address can be any number of bits.
+
+Classless addresses are represented as w.x.y.z / n where n indicates the number of bits in the network part.
+
+Classless addressing allows more efficient use of the address space but routing is more complicated.
+
+Classless inter-domain routing is known as CIDR.
+
+An organisation requesting a block of 1000 host addresses would be allocated a block of 1024 addresses.
+
+NAT stands for Network Address Translation.
+
+A large site is allocated a single IP address for Internet-wide communication.
+
+Three blocks of addresses have been declared as private and can be allocated to any local network.
+
+The private address block 10.0.0.0 to 10.255.255.255/8 supports 2 to the power of 24 hosts.
+
+The private address block 172.10.0.0 to 172.31.255.255/12 supports 2 to the power of 20 hosts.
+
+The private address block 192.168.0.0 to 192.168.255.255/16 supports 2 to the power of 16 hosts.
+
+A NAT table is associated with the site NAT gateway or router.
+
+The Internet is a network of interconnected ISPs.
+
+Hosts are end systems running network apps at the Internet's edge.
+
+Packet switches forward packets, which are chunks of data.
+
+Routers and switches are examples of packet switches.
+
+Communication links include fiber, copper, radio, and satellite.
+
+Bandwidth is the transmission rate of a communication link.
+
+A network is a collection of devices, routers, and links managed by an organization.
+
+Protocols control the sending and receiving of messages.
+
+Examples of protocols include HTTP, TCP, IP, WiFi, 4G, and Ethernet.
+
+Internet standards are documented in RFCs and managed by the IETF.
+
+The Internet provides infrastructure that provides services to applications.
+
+Applications include Web, streaming video, multimedia teleconferencing, email, games, and e-commerce.
+
+The Internet provides a programming interface to distributed applications.
+
+Protocols define the format and order of messages sent and received among network entities.
+
+Protocols define actions taken on message transmission and receipt.
+
+The network edge consists of hosts, clients, and servers.
+
+Servers are often located in data centers.
+
+Access networks include wired and wireless communication links.
+
+The network core consists of interconnected routers forming a network of networks.
+
+Access networks include residential, institutional, and mobile access networks.
+
+Transmission rate of an access network is measured in bits per second.
+
+Access networks can be shared or dedicated among users.
+
+Home networks often combine a WiFi access point, router, firewall, NAT, and modem in a single box.
+
+WiFi wireless access point supports 54 to 450 Mbps.
+
+Wired Ethernet in home networks supports 1 Gbps.
+
+Wireless local area networks typically operate within or around a building.
+
+802.11 WiFi supports 600 Mbps at 2.4GHz and 1300 Mbps at 5GHz.
+
+Wide-area cellular access networks are provided by mobile cellular network operators.
+
+4G and 5G cellular networks support 100's to 1000's of Mbps.
+
+Enterprise networks include a mix of wired and wireless link technologies.
+
+Ethernet in enterprise networks supports 100Mbps, 1Gbps, and 10Gbps.
+
+WiFi access points in enterprise networks support 100's to 1000's of Mbps.
+
+A host takes an application message and breaks it into smaller chunks known as packets.
+
+Packets have a length of L bits.
+
+The host transmits packets into the access network at transmission rate R.
+
+Link transmission rate is also known as link capacity or link bandwidth.
+
+Packet transmission time equals L bits divided by R bits per second.
+
+Bits propagate between transmitter and receiver pairs.
+
+Physical links can be guided media such as copper, fiber, and coax.
+
+Unguided media means signals propagate freely, such as radio.
+
+Twisted pair is made up of twisted copper wires.
+
+Category 5 twisted pair supports 100 Mbps and 1 Gbps Ethernet.
+
+Category 6 twisted pair supports 10Gbps Ethernet.
+
+Coaxial cable has two concentric copper conductors and is bidirectional.
+
+Coaxial cable is broadband, supporting multiple frequency channels.
+
+Fiber optic cable carries light pulses, each pulse a bit.
+
+Fiber optic cable supports high-speed point-to-point transmission of 10's to 100's Gbps.
+
+Fiber optic cable has a low error rate and is immune to electromagnetic noise.
+
+Wireless radio signals are carried in the electromagnetic spectrum.
+
+Radio link types include terrestrial microwave, wireless LAN, wide-area cellular, and satellite.
+
+Terrestrial microwave supports up to 45 Mbps channels.
+
+Satellite radio supports up to 45 Mbps per channel.
+
+The network core is a mesh of interconnected routers.
+
+Packet switching means hosts break application-layer messages into packets.
+
+Packets are forwarded from one router to the next across links on the path from source to destination.
+
+Each packet is transmitted at full link capacity in packet switching.
+
+Store and forward means an entire packet must arrive at a router before it can be transmitted on the next link.
+
+End-to-end delay in store and forward is 2L/R assuming zero propagation delay.
+
+Packet queuing occurs when arrival rate to a link exceeds the transmission rate of the link.
+
+Packets can be dropped or lost if the memory buffer in a router fills up.
+
+Forwarding is a local action that moves arriving packets from a router's input link to the appropriate output link.
+
+Routing is a global action that determines source-destination paths taken by packets.
+
+Circuit switching allocates end-to-end resources reserved for a call between source and destination.
+
+Circuit switching provides dedicated resources with no sharing.
+
+Circuit switching provides circuit-like guaranteed performance.
+
+Circuit switching is commonly used in traditional telephone networks.
+
+Frequency Division Multiplexing divides optical or electromagnetic frequencies into narrow frequency bands.
+
+Time Division Multiplexing divides time into slots and each call is allocated periodic slots.
+
+Packet switching is great for bursty data and provides resource sharing.
+
+Packet switching has simpler operation with no call setup.
+
+Packet switching can suffer from excessive congestion, packet delay, and loss due to buffer overflow.
+
+Protocols are needed for reliable data transfer and congestion control in packet switching.
+
+Access ISPs include residential, enterprise, company, university, and commercial ISPs.
+
+Access ISPs must be interconnected so any two hosts can send packets to each other.
+
+Connecting each access ISP to each other directly does not scale.
+
+A global transit ISP can connect access ISPs with economic agreements between customer and provider ISPs.
+
+Internet Exchange Points allow ISPs to interconnect.
+
+Peering links connect ISPs at Internet Exchange Points.
+
+Tier-1 commercial ISPs have national and international coverage.
+
+Examples of tier-1 ISPs include Sprint and AT&T.
+
+Content provider networks such as Google and Facebook connect their data centers to the Internet.
+
+Content provider networks often bypass tier-1 and regional ISPs.
+
+POP stands for point-of-presence.
+
+1 bit equals 0 or 1, which is one binary digit.
+
+1 Kilobit equals 1000 bits.
+
+1 Megabit equals 1,000,000 bits.
+
+1 Gigabit equals 1,000,000,000 bits.
+
+1 byte equals 8 bits.
+
+1 Kilobyte equals 1024 bytes.
+
+1 Megabyte equals 1,048,576 bytes.
+
+1 Gigabyte equals 1,073,741,824 bytes.
+
+1 Terabyte equals 1,099,511,627,776 bytes.
+
+The time required to examine a packet's header and determine where to direct the packet is part of the processing delay.
+
+Processing delay can include the time needed to check for bit-level errors in the packet.
+
+Processing delays in high-speed routers are typically on the order of microseconds or less.
+
+After nodal processing, the router directs the packet to the queue that precedes the link to the next router.
+
+At the queue, a packet experiences a queuing delay as it waits to be transmitted onto the link.
+
+The length of the queuing delay depends on the number of earlier-arriving packets that are queued and waiting for transmission.
+
+If the queue is empty and no other packet is currently being transmitted, the queuing delay will be zero.
+
+If the traffic is heavy and many other packets are waiting to be transmitted, the queuing delay will be long.
+
+Queuing delays can be on the order of microseconds to milliseconds in practice.
+
+Packets are transmitted in a first-come-first-served manner in packet-switched networks.
+
+The transmission delay is L/R, where L is the packet length in bits and R is the transmission rate.
+
+Transmission delay is the amount of time required to push all of the packet's bits into the link.
+
+Transmission delays are typically on the order of microseconds to milliseconds in practice.
+
+Once a bit is pushed into the link, it needs to propagate to the next router.
+
+The time required to propagate from the beginning of the link to the next router is the propagation delay.
+
+The bit propagates at the propagation speed of the link.
+
+Propagation speed depends on the physical medium of the link and is in the range of 2 x 10^8 to 3 x 10^8 meters per second.
+
+The propagation delay is the distance between two routers divided by the propagation speed.
+
+The propagation delay is d/s, where d is the distance and s is the propagation speed of the link.
+
+In wide-area networks, propagation delays are on the order of milliseconds.
+
+A queue preceding a link has finite capacity in reality.
+
+A packet can arrive to find a full queue.
+
+A router will drop a packet if there is no place to store it, meaning the packet will be lost.
+
+A packet loss looks like a packet having been transmitted into the network core but never emerging at the destination.
+
+Lost packets may be retransmitted by the previous node, by the source end system, or not at all.
+
+The total delay from source to destination is the end-to-end delay.
+
+Suppose there are N - 1 routers between the source host and the destination host.
+
+The end-to-end delay formula is N times the sum of d_proc, d_trans, and d_prop.
+
+The end-to-end delay formula assumes an uncongested network with negligible queuing delays.
+
+Another critical performance measure in computer networks is end-to-end throughput.
+
+Instantaneous throughput is the rate at which a host is receiving a file.
+
+If a file consists of F bits and the transfer takes T seconds, the average throughput is F/T bits/sec.
+
+Throughput is the rate at which bits are being sent from sender to receiver.
+
+Instantaneous throughput is the rate at a given point in time.
+
+Average throughput is the rate over a longer period of time.
+
+The bottleneck link is the link on the end-to-end path that constrains end-to-end throughput.
+
+Per-connection end-to-end throughput is the minimum of R_c, R_s, and R/10 in a shared backbone scenario.
+
+In practice, R_c or R_s is often the bottleneck.
+
+The transmission delay for a packet of length L bits over a link with transmission rate R Mbps is L/R.
+
+The propagation delay for a bit over a link of distance d with propagation speed s is d/s.
+
+Propagation delay does not depend on packet length.
+
+Propagation delay does not depend on transmission rate.
+
+
+Creating a network app involves writing programs that run on different end systems and communicate over the network.
+
+Network-core devices do not run user applications.
+
+In client-server paradigm, the server is an always-on host with a permanent IP address.
+
+In client-server paradigm, clients communicate with the server and may be intermittently connected.
+
+In client-server paradigm, clients may have dynamic IP addresses.
+
+In client-server paradigm, clients do not communicate directly with each other.
+
+In peer-to-peer architecture, there is no always-on server.
+
+In peer-to-peer architecture, arbitrary end systems directly communicate.
+
+In peer-to-peer architecture, peers request service from other peers and provide service in return.
+
+Peer-to-peer architecture has self scalability because new peers bring new service capacity and new service demands.
+
+In peer-to-peer architecture, peers are intermittently connected and change IP addresses.
+
+A process is a program running within a host.
+
+Within the same host, two processes communicate using inter-process communication defined by the OS.
+
+Processes in different hosts communicate by exchanging messages.
+
+A client process is a process that initiates communication.
+
+A server process is a process that waits to be contacted.
+
+Applications with P2P architectures have client processes and server processes.
+
+To receive messages, a process must have an identifier.
+
+A host device has a unique 32-bit IP address.
+
+An identifier for a process includes both the IP address and port numbers associated with the process on the host.
+
+HTTP server uses port number 80.
+
+Mail server uses port number 25.
+
+An application-layer protocol defines the types of messages exchanged, such as request and response.
+
+An application-layer protocol defines message syntax, which is what fields are in messages and how fields are delineated.
+
+An application-layer protocol defines rules for when and how processes send and respond to messages.
+
+Open protocols are defined in RFCs and everyone has access to the protocol definition.
+
+Open protocols allow for interoperability.
+
+Examples of open protocols are HTTP and SMTP.
+
+Proprietary protocols are not open, such as Skype.
+
+Data integrity means some apps require 100% reliable data transfer while other apps can tolerate some loss.
+
+Timing means some apps require low delay to be effective.
+
+Throughput means some apps require a minimum amount of throughput to be effective.
+
+Elastic apps make use of whatever throughput they get.
+
+Security in transport services includes encryption and data integrity.
+
+TCP service provides reliable transport between sending and receiving processes.
+
+TCP service provides flow control so the sender won't overwhelm the receiver.
+
+TCP service provides congestion control to throttle the sender when the network is overloaded.
+
+TCP service does not provide timing, minimum throughput guarantee, or security.
+
+TCP service is connection-oriented, requiring setup between client and server processes.
+
+UDP service provides unreliable data transfer between sending and receiving processes.
+
+UDP service does not provide reliability, flow control, congestion control, timing, throughput guarantee, security, or connection setup.
+
+HTTP stands for Hypertext Transfer Protocol.
+
+HTTP is the Web's application layer protocol.
+
+HTTP uses a client/server model where the browser sends requests and receives Web objects.
+
+HTTP uses a client/server model where the Web server sends objects in response to requests.
+
+HTTP uses TCP.
+
+The client initiates a TCP connection to the server on port 80.
+
+The server accepts the TCP connection from the client.
+
+HTTP messages are exchanged between the browser as HTTP client and the Web server as HTTP server.
+
+Non-persistent HTTP opens a TCP connection, sends at most one object, then closes the connection.
+
+Downloading multiple objects with non-persistent HTTP requires multiple connections.
+
+Persistent HTTP allows multiple objects to be sent over a single TCP connection.
+
+RTT is the time for a small packet to travel from client to server and back.
+
+Non-persistent HTTP response time per object is two RTTs plus file transmission time.
+
+Persistent HTTP requires as little as one RTT for all referenced objects.
+
+HTTP request message is in ASCII human-readable format.
+
+The request line of an HTTP request message includes the method, URL, and version.
+
+HTTP methods include GET, POST, HEAD, and PUT.
+
+POST method sends user input from client to server in the entity body of the HTTP request message.
+
+GET method can include user data in the URL field following a question mark.
+
+HEAD method requests headers only that would be returned if the URL were requested with GET.
+
+PUT method uploads a new file to the server and completely replaces the file at the specified URL.
+
+HTTP response message includes a status line with protocol version, status code, and status phrase.
+
+Status code 200 OK means the request succeeded and the requested object is later in the message.
+
+Status code 301 Moved Permanently means the requested object moved and the new location is specified in the Location field.
+
+Status code 400 Bad Request means the request message was not understood by the server.
+
+Status code 404 Not Found means the requested document was not found on the server.
+
+Status code 505 HTTP Version Not Supported means the HTTP version is not supported.
+
+A web cache acts as both a client and a server.
+
+A web cache is a server for the original requesting client.
+
+A web cache is a client to the origin server.
+
+A web cache is typically installed by an ISP such as a university, company, or residential ISP.
+
+The goal of a web cache is to satisfy a client request without involving the origin server.
+
+The user configures the browser to point to a Web cache.
+
+
+The browser sends all requests to the cache.
+
+If the object is in the cache, the cache returns the object to the client.
+
+If the object is not in the cache, the cache requests the object from the origin server, caches it, then returns it to the client.
+
+Web caching reduces response time for client requests because the cache is closer to the client.
+
+Web caching reduces traffic on an institution's access link.
+
+The Internet is dense with caches.
+
+Web caching enables poor content providers to more effectively deliver content.
+
+As link utilization approaches 1, the delay on a link becomes very large and grows without bound.
+
+When traffic intensity is close to zero, the average queuing delay is close to zero.
+
+When link utilization is close to 1, intervals occur when arrival rate exceeds transmission capacity and a queue forms.
+
+As traffic intensity approaches 1, the average queue length gets larger and larger.
+
+Buying a faster access link can reduce utilization but is expensive.
+
+Installing a web cache can lower average end-to-end delay and is cheaper than buying a faster link.
+
+With a cache hit rate of 0.4, 40% of requests are satisfied at the cache and 60% at the origin.
+
+With a hit rate of 0.4, access link utilization is 0.58.
+
+With a hit rate of 0.4, average end-to-end delay is approximately 0.6 seconds.
+
+A forward proxy sits in front of a client and ensures that no origin server ever communicates directly with that specific client.
+
+In a forward proxy, the user's device sends requests to the proxy, which forwards the request to the origin server.
+
+The origin server sends a response to the proxy, which forwards the response back to the user's device.
+
+A forward proxy can block access to certain content.
+
+A forward proxy can bypass state or institutional browsing restrictions.
+
+A forward proxy can protect a user's identity online.
+
+A forward proxy can be used for caching to save bandwidth on the access link.
+
+A reverse proxy sits in front of one or more web servers and intercepts requests from clients.
+
+With a reverse proxy, clients send requests to the origin server, but these requests are intercepted at the network edge by the reverse proxy.
+
+The reverse proxy sends requests to and receives responses from the origin server.
+
+A reverse proxy sits in front of an origin server and ensures that no client ever communicates directly with that origin server.
+
+A reverse proxy can provide load balancing by distributing incoming traffic evenly among different servers.
+
+A reverse proxy can protect from attacks because the origin server's IP address is never revealed.
+
+A reverse proxy can cache content, resulting in faster performance.
+
+A reverse proxy can handle SSL encryption and decryption to free up resources on the origin server.
+
+Content Distribution Networks store copies of content at CDN nodes.
+
+A single large mega-server does not scale due to single point of failure, network congestion, and long paths to distant clients.
+
+A CDN stores and serves multiple copies of videos at multiple geographically distributed sites.
+
+A subscriber requesting content from a CDN is directed to a nearby copy.
+
+A CDN may choose a different copy if the network path is congested.
+
+Internet addressing is used to identify the unique location of an internet node.
+
+Naming provides a second layer of direction that is location-independent and human-friendly.
+
+Routing moves data from source to destination.
+
+In a URL, http indicates the conventions to serve web pages.
+
+In a URL, www indicates the computer acting as a web server.
+
+In a URL, the domain name identifies the server.
+
+DNS predecessor used a flat file called HOSTS.TXT for name to address mappings.
+
+HOSTS.TXT was maintained by the Network Information Center.
+
+HOSTS.TXT was updated nightly by all internet hosts using FTP.
+
+Problems with HOSTS.TXT included bandwidth for file transfers and load on FTP servers.
+
+DNS stands for Domain Name System.
+
+DNS is a distributed database implemented in a hierarchy of many name servers.
+
+DNS is an application-layer protocol where hosts and name servers communicate to resolve names.
+
+DNS is a core Internet function implemented as an application-layer protocol.
+
+DNS services include hostname to IP address translation.
+
+DNS services include host aliasing and mail server aliasing.
+
+DNS services include load distribution for replicated Web servers.
+
+Centralizing DNS would create a single point of failure and traffic volume problems.
+
+A centralized DNS database would be distant and require maintenance.
+
+Comcast DNS servers alone handle 600 billion DNS queries per day.
+
+DNS uses a distributed, hierarchical database.
+
+The DNS hierarchy includes root DNS servers, top-level domain DNS servers, and authoritative DNS servers.
+
+Root DNS servers are the official contact of last resort by name servers that cannot resolve a name.
+
+There are 13 logical root name servers worldwide.
+
+DNSSEC provides security including authentication and message integrity.
+
+ICANN manages the root DNS domain.
+
+Top-level domain servers are responsible for .com, .org, .net, .edu, and all top-level country domains.
+
+VeriSign Global Registry Services is the authoritative registry for the .com TLD.
+
+Educause is the authoritative registry for the .edu TLD.
+
+Authoritative DNS servers provide authoritative hostname to IP mappings for an organization's named hosts.
+
+Each ISP has a local DNS server also called a default name server.
+
+A host's DNS query is sent to its local DNS server.
+
+Local DNS servers have a local cache of recent name-to-address translation pairs.
+
+Local DNS servers act as a proxy and forward queries into the hierarchy.
+
+Recursive query puts the burden of name resolution on the contacted name server.
+
+Iterated query means the contacted server replies with the name of the server to contact.
+
+Once any name server learns a mapping, it caches the mapping.
+
+Cache entries timeout after some time based on TTL.
+
+TLD servers are typically cached in local name servers so root name servers are not often visited.
+
+Cached entries may be out of date, which is best-effort name-to-address translation.
+
+If a name host changes its IP address, it may not be known Internet-wide until all TTLs expire.
+
+RFC 2136 defines update and notify mechanisms for DNS.
+
+DNS is a distributed database storing resource records.
+
+Resource record format is host, class, ttl, type, data.
+
+DNS query and reply messages both have the same format.
+
+DNS message header includes a 16-bit identification number for the query.
+
+The reply to a query uses the same identification number as the query.
+
+DNS message flags include query or reply, recursion desired, recursion available, and reply is authoritative.
+
+Resource record type A maps a hostname to an IPv4 address.
+
+Resource record type CNAME maps an alias to a canonical name.
+
+Resource record type MX maps a domain to a mail server.
+
+Resource record type NS maps a domain to an authoritative name server.
+
+Resource record type SOA indicates the start of authority for a zone.
+
+To insert records into DNS, a new startup registers its name at a DNS registrar.
+
+The registrar inserts NS and A resource records into the TLD server.
+
+The organization creates an authoritative server with its own IP address.
+
+DNS is vulnerable to DDoS attacks that bombard root servers with traffic.
+
+Traffic filtering and local DNS server caching help protect against DDoS attacks on root servers.
+
+Redirect attacks on DNS include man-in-the-middle interception of DNS queries.
+
+DNS poisoning involves sending bogus replies to a DNS server which caches them.
+
+DNS can be exploited for DDoS by sending queries with spoofed source addresses.
+
+A DDoS attack against the top-level-domain service provider Dyn took place on October 21, 2016.
+
+The Dyn attack used a botnet of about one hundred thousand IoT devices infected with Mirai malware.
+
+A large-scale DDoS attack against DNS root servers took place on October 21, 2002.
+
+The 2002 attack used a botnet to send ICMP ping messages to the 13 DNS root IP addresses.
+
+Packet filters blocked ICMP ping messages directed at root servers during the 2002 attack.
+
+When a browser requests a URL, the host must first obtain the IP address of the web server.
+
+The browser extracts the hostname from the URL and passes it to the DNS client.
+
+The DNS client sends a query containing the hostname to a DNS server.
+
+The DNS client receives a reply that includes the IP address for the hostname.
+
+Once the browser receives the IP address from DNS, it can initiate a TCP connection to the HTTP server at port 80.
+
+Before a client can fetch a web page, it needs to translate the hostname to an IP address using DNS.
+
+DNS lookup needs to happen for every unique hostname on a fetched HTML page, but only once per hostname.
+
+Connection delay is the time to setup a connection from the client to the server using TCP.
+
+TLS negotiation delay occurs if the client is making an HTTPS connection.
+
+TLS is the successor to Secure Socket Layer.
+
+Time to first byte is the measurement of the responsiveness of a web server.
+
+TTFB is the time it takes your browser to start receiving information after it has requested it from the server.
+
+TTFB is the measure of time from when the client starts navigation to a web page until the first byte of the base page response is received.
+
+TTFB is a sum of many preceding metrics as well as any server processing time.
+
+Content download time is the Time to Last Byte for the requested object.
+
+DNS load balancing configures a domain so that client requests are distributed across a group of server machines.
+
+Round-robin DNS uses domains with multiple A records, each tied to a different IP address.
+
+With round-robin DNS, IP addresses rotate in a round-robin fashion as DNS queries come in.
+
+An IP address is a 32-bit identifier associated with each host or router interface.
+
+An interface is the connection between a host or router and a physical link.
+
+Routers typically have multiple interfaces.
+
+A host typically has one or two interfaces, such as wired Ethernet or wireless 802.11.
+
+Dotted-decimal IP address notation represents a 32-bit address as four decimal numbers separated by dots.
+
+A subnet is a group of device interfaces that can physically reach each other without passing through an intervening router.
+
+IP addresses have a structure consisting of a subnet part and a host part.
+
+Devices in the same subnet have common high-order bits in the subnet part.
+
+The remaining low-order bits form the host part of the IP address.
+
+A subnet mask of /24 means the high-order 24 bits are the subnet part of the IP address.
+
+CIDR stands for Classless InterDomain Routing and is pronounced "cider".
+
+CIDR allows the subnet portion of an address to be of arbitrary length.
+
+The CIDR address format is a.b.c.d/x, where x is the number of bits in the subnet portion.
+
+A host can get its IP address by being hard-coded by a system administrator in a config file.
+
+DHCP stands for Dynamic Host Configuration Protocol and allows a host to dynamically get an address from a server.
+
+DHCP is often described as plug-and-play networking.
+
+The goal of DHCP is for a host to dynamically obtain an IP address from a network server when it joins the network.
+
+DHCP allows a host to renew its lease on an address in use.
+
+DHCP allows reuse of addresses because a host only holds an address while connected.
+
+DHCP supports mobile users who join and leave a network.
+
+The DHCP overview includes DHCP discover, DHCP offer, DHCP request, and DHCP ACK messages.
+
+A host broadcasts a DHCP discover message optionally.
+
+The DHCP server responds with a DHCP offer message optionally.
+
+The host requests an IP address with a DHCP request message.
+
+The DHCP server sends the address with a DHCP ACK message.
+
+A DHCP server is typically co-located in a router, serving all subnets to which the router is attached.
+
+The DHCP discover and offer steps can be skipped if a client remembers and wishes to reuse a previously allocated network address.
+
+
+DHCP can return more than just the allocated IP address on the subnet.
+
+DHCP can return the address of the first-hop router for the client.
+
+DHCP can return the name and IP address of the DNS server.
+
+DHCP can return the network mask indicating the network versus host portion of the address.
+
+A DHCP request message is encapsulated in UDP, then in IP, then in Ethernet.
+
+An Ethernet frame is broadcast on the LAN and received at the router running the DHCP server.
+
+The DHCP server formulates a DHCP ACK containing the client's IP address, the IP address of the first-hop router, and the name and IP address of the DNS server.
+
+After DHCP, the client knows its IP address, the name and address of the DNS server, and the IP address of its first-hop router.
+
+A static IP address can be configured on an interface using the address keyword with a subnet prefix length.
+
+DHCP can be enabled on an interface by setting dhcp4 to true in the netplan configuration.
+
+Multiple addresses and multiple gateways can be configured on an interface.
+
+Multiple interfaces can be connected with DHCP using route metrics.
+
+Multiple addresses can be assigned to a single interface with labels.
+
+DNS servers and search domains can be configured in the netplan configuration.
+
+The default lease time in a DHCP server configuration is 600 seconds or 10 minutes.
+
+The maximum lease time in a DHCP server configuration is 7200 seconds or 2 hours.
+
+A DHCP server marked as authoritative is the official server for the local network.
+
+A DHCP server hands over IP addresses from a defined range.
+
+A DHCP server advises the client to use specific default gateway and DNS server addresses.
+
+A static IP can be assigned to a client by reserving an IP address for a specific MAC address.
+
+The DHCP server needs the MAC address of a client to guarantee that the client always gets the same IP address.
+
+When a mobile client attaches to a network, it uses DHCP to get its own IP address, the address of the first-hop router, and the address of the DNS server.
+
+Before sending an HTTP request, the client needs the IP address of the web server using DNS.
+
+To send a frame to the router, the client needs the MAC address of the router interface using ARP.
+
+ARP query is broadcast and received by the router, which replies with an ARP reply giving its MAC address.
+
+After ARP, the client knows the MAC address of the first-hop router and can send a frame containing the DNS query.
+
+The DNS query is encapsulated in UDP, then in IP, then in Ethernet.
+
+The DNS server replies to the client with the IP address of the web server.
+
+To send an HTTP request, the client first opens a TCP socket to the web server.
+
+TCP sends a SYN message to the web server.
+
+The web server responds with a TCP SYN ACKNOWLEDGEMENT message.
+
+After the TCP connection is established, the HTTP request is sent into the TCP socket.
+
+The IP datagram containing the HTTP request is routed to the web server.
+
+The web server responds with an HTTP reply containing the web page.
+
+The IP datagram containing the HTTP reply is routed back to the client.
+
+The three major components of email are user agents, mail servers, and Simple Mail Transfer Protocol.
+
+A user agent is also known as a mail reader.
+
+User agents are used for composing, editing, and reading mail messages.
+
+Examples of user agents include Outlook and Web-based Gmail.
+
+Outgoing and incoming messages are stored on the mail server.
+
+A mail server contains a mailbox with incoming messages for the user.
+
+A mail server contains a message queue of outgoing mail messages.
+
+SMTP is the protocol between mail servers to send email messages.
+
+In SMTP, the sending mail server acts as a client.
+
+In SMTP, the receiving mail server acts as a server.
+
+SMTP uses TCP to reliably transfer email messages from client to server.
+
+SMTP operates on port 25.
+
+SMTP performs direct transfer from the sending server to the receiving server.
+
+The three phases of SMTP transfer are handshaking, transfer of messages, and closure.
+
+SMTP uses command and response interaction like HTTP.
+
+SMTP commands are ASCII text.
+
+SMTP responses are a status code and phrase.
+
+SMTP messages must be in 7-bit ASCII.
+
+Alice uses her user agent to compose an email message to Bob.
+
+Alice's user agent sends the message to her mail server where it is placed in a message queue.
+
+The client side of SMTP opens a TCP connection with Bob's mail server.
+
+The SMTP client sends Alice's message over the TCP connection.
+
+Bob's mail server places the message in Bob's mailbox.
+
+Bob invokes his user agent to read the message.
+
+SMTP commands include HELO, MAIL FROM, RCPT TO, DATA, and QUIT.
+
+If Bob uses Web-based email, the user agent uses HTTP or HTTPS to retrieve Bob's email.
+
+This requires Bob's mail server to have an HTTP or HTTPS interface as well as an SMTP interface.
+
+The alternative method for retrieving email is Internet Mail Access Protocol defined in RFC 3501.
+
+Both HTTP and IMAP allow Bob to manage folders maintained in Bob's mail server.
+
+Bob can move messages into folders, delete messages, and mark messages as important.
+
+P2P applications have no always-on server.
+
+In P2P, arbitrary end systems directly communicate.
+
+In P2P, peers request service from other peers and provide service in return.
+
+P2P has self scalability because new peers bring new service capacity and new service demands.
+
+In P2P, peers are intermittently connected and change IP addresses.
+
+P2P has complex management.
+
+Examples of P2P applications include BitTorrent for file sharing and Skype for VoIP.
+
+Distribution time is the time to distribute a file of size F from one server to N peers.
+
+Peer upload and download capacity is a limited resource.
+
+In client-server file distribution, the server must send N file copies.
+
+Time to send one copy in client-server is F divided by the server upload capacity.
+
+Time to send N copies in client-server is NF divided by the server upload capacity.
+
+Each client must download a file copy in client-server distribution.
+
+Minimum client download time is F divided by the minimum client download rate.
+
+Client-server distribution time increases linearly in N.
+
+In P2P file distribution, the server must upload at least one copy.
+
+Time to send one copy in P2P is F divided by the server upload capacity.
+
+In P2P, clients as an aggregate must download NF bits.
+
+The maximum upload rate in P2P is the server upload capacity plus the sum of peer upload capacities.
+
+P2P distribution time increases linearly in N but so does the service capacity as each peer brings capacity.
+
+The root cause of the minimum distribution time can be the server, a client, or the combined upload of clients and server.
+
+POP3 is a pull protocol.
+
+SMTP is a push protocol.
+
+The Internet is made up of many pieces and the network is complex, so protocol layers are required.
+
+Protocol layers enable modularisation which eases maintenance.
+
+Protocol layers ease updating of systems.
+
+Protocol layers make change of implementation of a layer's service transparent to the rest of the system.
+
+The two Internet protocol layers are the TCP/IP layer and the OSI layer.
+
+The TCP/IP layer is widely used in the Internet.
+
+The OSI layer is only a reference model.
+
+The TCP/IP layer is made up of 5 layers.
+
+The application layer supports network apps such as FTP, SMTP, and HTTP.
+
+The transport layer handles process data transfer using TCP and UDP.
+
+The network layer handles routing of packets from source to destination using IP and routing protocols.
+
+The data link layer handles data transfer between neighboring network elements such as WiFi.
+
+The physical layer handles bits on the wire.
+
+The OSI layer differs from the TCP/IP layer with two additional layers.
+
+The presentation layer allows applications to interpret meaning of data such as encryption, compression, and machine-specific conventions.
+
+The session layer handles synchronization, check pointing, and recovery of data exchange.
+
+Transport services provide logical communication between app processes running on different hosts.
+
+Transport protocols run in end systems.
+
+On the send side, transport protocols break app messages into segments and pass them to the network layer.
+
+On the receive side, transport protocols reassemble segments into messages and pass them to the app layer.
+
+More than one transport protocol is available to apps.
+
+The Internet transport protocols are TCP and UDP.
+
+TCP provides reliable, in-order delivery.
+
+TCP is connection-oriented.
+
+TCP provides connection management, loss and error recovery, flow control, and congestion control.
+
+UDP provides unreliable, unordered delivery.
+
+UDP is a no-frills extension of best-effort IP.
+
+UDP is a connectionless protocol.
+
+UDP is unreliable with no sequencing or flow control.
+
+UDP has no congestion control.
+
+UDP has low overhead.
+
+A TCP socket is identified by a 4-tuple of source IP address, source port number, dest IP address, and dest port number.
+
+The receiving host uses all four values to direct a segment to the appropriate socket.
+
+A server host may support many simultaneous TCP sockets.
+
+Each socket is identified by its own 4-tuple.
+
+Web servers have different sockets for each connecting client.
+
+Non-persistent HTTP will have a different socket for each request.
+
+TCP is point-to-point with one sender and one receiver.
+
+TCP provides a reliable, in-order byte stream with no message boundaries.
+
+TCP is pipelined with congestion and flow control setting window size.
+
+TCP uses send and receive buffers.
+
+TCP provides full duplex data with bi-directional data flow in the same connection.
+
+MSS stands for maximum segment size.
+
+TCP is connection-oriented with open, data exchange, and close phases.
+
+TCP provides flow control and congestion control.
+
+The TCP header includes source port and dest port fields.
+
+The TCP header includes a sequence number and acknowledgement number.
+
+The TCP header includes control flags such as URG, ACK, PSH, RST, SYN, and FIN.
+
+URG indicates urgent data at the urgent offset pointer.
+
+ACK indicates acknowledgement present and field valid.
+
+PSH means send now, don't buffer.
+
+RST means reset connection or connection request rejected.
+
+SYN is the connection setup synchronize flag.
+
+FIN is the release connection flag.
+
+TCP options include maximum segment size, window scale factor, selective repeat, and time stamp.
+
+Sequence numbers are the byte stream number of the first byte in a segment's data.
+
+ACKs are the sequence number of the next byte expected from the other side.
+
+TCP uses cumulative ACKs.
+
+The TCP spec does not say how the receiver handles out-of-order segments, leaving it up to the implementer.
+
+TCP creates a reliable service on top of IP's unreliable service.
+
+TCP uses pipelined segments.
+
+TCP uses a single retransmission timer.
+
+Retransmissions are triggered by timeout events and duplicate ACKs.
+
+The TCP sender creates a segment with a sequence number when data is received from the app.
+
+The TCP sender starts a timer if not already running.
+
+The expiration interval is TimeOutInterval.
+
+On timeout, TCP retransmits the segment that caused the timeout and restarts the timer.
+
+On receiving an ACK, TCP updates what is known to be acked and starts a timer if there are outstanding segments.
+
+SendBase is the sequence number of the oldest unacknowledged byte.
+
+Fast retransmit resends a segment before the timer expires.
+
+If the sender receives 3 ACKs for the same data, it supposes the segment after the ACKed data was lost.
+
+TCP sender and receiver establish a connection before exchanging data segments.
+
+TCP connection establishment initializes TCP variables such as sequence numbers, buffers, and flow control info.
+
+The client is the connection initiator.
+
+The server is contacted by the client.
+
+The three-way handshake uses SYN, SYNACK, and ACK segments.
+
+Step 1 of the three-way handshake is the client sending a TCP SYN segment to the server specifying the initial sequence number.
+
+Step 2 of the three-way handshake is the server receiving SYN and replying with a SYNACK segment.
+
+Step 3 of the three-way handshake is the client receiving SYNACK and replying with an ACK segment.
+
+Closing a connection uses FIN and ACK control segments.
+
+Step 1 of closing a connection is the client sending a TCP FIN control segment to the server.
+
+Step 2 of closing a connection is the server receiving FIN and replying with an ACK.
+
+Step 3 of closing a connection is the client receiving FIN and replying with an ACK, entering timed wait.
+
+Step 4 of closing a connection is the server receiving ACK and the connection being closed.
+
+Flow control uses algorithms to prevent the sender from overrunning the receiver with information.
+
+Congestion control uses algorithms to prevent the sender from overloading the network.
+
+The goal of flow control and congestion control mechanisms is different but the implementation is combined.
+
+TCP implements sliding window flow control.
+
+The receive side of a TCP connection has a receive buffer or receive window.
+
+Flow control matches the send rate to the receiving app's drain rate.
+
+The receiver advertises spare room by including the value of RcvWindow in segments.
+
+The sender limits unACKed data to RcvWindow.
+
+Sending acknowledgements is separated from setting the window size at the sender.
+
+Acknowledgements do not automatically increase the window size.
+
+Acknowledgements are cumulative.
+
+Congestion occurs when too many sources send too much data too fast for the network to handle.
+
+Congestion control is different from flow control.
+
+Various approaches to congestion control include proactive, reactive end-to-end, and reactive network-assisted.
+
+Effects of congestion include increased delays as queues get longer.
+
+Effects of congestion include packet loss as buffers get full.
+
+Lost packets result in retransmissions which makes congestion worse.
+
+TCP uses slow start on connection establishment and after segment loss or 3 ACKs for a segment.
+
+Congestion window is dynamically sized and responds to network state.
+
+When a connection begins, CongWin equals 1 MSS.
+
+With each ACK received in time, CongWin increases exponentially fast.
+
+TCP continues using the window size unless a problem occurs such as timeout or triple ACK.
+
+TCP increases rate exponentially until the first loss event.
+
+UDP has no connection establishment which can add delay.
+
+UDP is simple with no connection state at sender and receiver.
+
+UDP has a small segment header.
+
+UDP has no congestion control and can blast away as fast as desired.
+
+The UDP header includes source port, destination port, length, and checksum.
+
+UDP is simple and connectionless datagram based.
+
+UDP is lightweight with low overheads.
+
+UDP is easy to program with few primitives and simple sequences.
+
+UDP is unreliable and datagrams can be lost because no implicit acknowledgments are used.
+
+UDP datagrams can be duplicated because there is no sequence number.
+
+UDP works at the transport layer and incorporates ports as part of the address.
+
+UDP provides process to process communication.
+
+Typical uses of UDP include low-latency messaging where speed or low overhead is more important than reliability.
+
+Typical uses of UDP include services which require broadcasting such as service advertisement.
+
+Typical uses of UDP include local services where some message loss can be tolerated.
+
+Examples of UDP use include ticker services, heartbeat, and time-of-day services.
+
+Trivial File Transfer Protocol is an example of UDP use for low-latency and low-overhead file transfer.
+
+TFTP is typically used to transmit small files like router configuration files.
+
+TFTP provides basic error recovery in case a datagram is lost.
+
+TFTP works because it is used in LANs and the files are typically very small.
+
+Service advertisement is an example of UDP use where broadcast is needed and messages are repeated periodically.
+
+In service advertisement, if a datagram is lost there is no recovery.
+
+Service advertisement works because advertisements are sent periodically so messages are individually dispensable.
+
+Two end-to-end transport protocols have been defined: TCP and UDP.
+
+TCP is a connection-oriented protocol.
+
+TCP ensures end-to-end data reliability.
+
+TCP uses segmentation and reassembly.
+
+TCP handles flow control and congestion control.
+
+UDP is a connectionless protocol.
+
+UDP is unreliable with no sequencing or flow control.
+
+UDP has no congestion control.
+
+UDP has low overhead.
+
+A channel access method allows several terminals connected to the same multi-point transmission medium to transmit over it and share its capacity.
+
+Examples of shared physical media are wireless networks, bus networks, ring networks, and half-duplex point-to-point links.
+
+Two primary access control methods exist for computers to communicate over the network.
+
+The two primary access control methods are token-based access and Carrier Sense Multiple Access with Collision Detection.
+
+Token-based access is used in bus and ring network topologies.
+
+Each computer in a token network can only send its data if it has the token.
+
+Token-based access prevents collisions that occur when data is sent at the same time over the network.
+
+The token is a special pattern of bits in a frame that is directly detectable by each node in the network.
+
+A computer may only transmit information if it is in possession of the token.
+
+The message is sent to all other computers in the network in token-based access.
+
+CSMA/CD is usually used in a bus topology.
+
+CSMA/CD is used in Ethernet LANs.
+
+In CSMA/CD, all nodes can send whenever they have data to transmit.
+
+When a node wants to transmit information in CSMA/CD, it first listens to the network.
+
+If no one is transmitting over the network, the node begins transmission in CSMA/CD.
+
+It is possible for two nodes to transmit simultaneously thinking that the network is clear.
+
+When two nodes transmit at the same time in CSMA/CD, a collision occurs.
+
+The first station to detect the collision sends a jam signal into the network.
+
+Both nodes back off, wait for a random period of time, and then re-transmit.
+
+The three most popular types of LANs are token ring, Ethernet, and FDDI.
+
+FDDI stands for Fiber Distributed Data Interface.
+
+In token ring, an empty frame circulates in the network initially.
+
+In token ring, a node inserts a token in the token bit part of the frame when it wants to send.
+
+In token ring, the node inserts the message and the address of the receiving node in the frame.
+
+In token ring, each node examines the frame and compares the address in the frame to its own address.
+
+When the frame is received by the destination node in token ring, the node copies the message and changes the token bit to 0.
+
+When the source node receives the frame in token ring, it examines the token bit and recognizes that it has been changed to 0.
+
+The source node then empties the frame and releases the empty frame back into the network for circulation.
+
+Ethernet was the first network to provide CSMA/CD.
+
+Ethernet was developed in 1976 by Xerox PARC in cooperation with DEC and Intel.
+
+Ethernet is a fast and reliable network solution.
+
+Ethernet is one of the most widely implemented LAN standards.
+
+Ethernet can provide speeds in the range of 10Mbps to 10 Gbps.
+
+Ethernet is used with a bus or star topology.
+
+10Base-T operates at 10 Mbps and is IEEE 802.3 standard.
+
+Fast Ethernet (100Base-T) operates at 100 Mbps.
+
+Gigabit Ethernet operates at 1 Gbps and uses fiber optic cable.
+
+10 Gbps Ethernet uses fiber optic cable and was developed to meet increasing bandwidth needs.
+
+Wireless Ethernet is IEEE 802.11 standard and operates at around 2.4 Gbps.
+
+FDDI provides a standard for data transmission in a local area network that can extend up to 200 kilometers.
+
+The FDDI protocol uses the token ring protocol as its basis.
+
+FDDI local area networks can support thousands of users.
+
+FDDI uses optical fiber as a standard underlying medium.
+FDDI can use copper cable, in which case it is referred to as CDDI.
+
+FDDI uses a dual-attached, counter-rotating token-ring topology.
+
+An FDDI network contains two token rings, one for possible backup in case the primary ring fails.
+
+FDDI has a larger maximum-frame size than standard 100 Mbit/s Ethernet, allowing better throughput.
+
+A small number of devices connect to both rings in FDDI, hence the term dual-attached.
+
+Host computers connect as single-attached devices to routers or concentrators in FDDI.
+
+Internetworking is a scheme for interconnecting multiple networks of dissimilar technologies.
+
+Internetworking uses both hardware and software.
+
+Extra hardware is positioned between networks in internetworking.
+
+Software on each attached computer is part of internetworking.
+
+A system of interconnected networks is called an internetwork or an internet.
+
+Network devices used in internetworking include repeaters, hubs, bridges, switches, and routers.
+
+Functions of network devices include separating or connecting networks and expanding network.
+
+Functions of network devices include remote access.
+
+Networks cannot be made larger by simply adding new computers and more cables.
+
+Components can be installed to segment a large LAN or connect LANs.
+
+Repeaters and hubs work at the OSI physical layer to regenerate the network's signal and resend them to other segments.
+
+A primitive hub can be viewed as a multiport repeater.
+
+A hub regenerates data and broadcasts them to all ports, which is called flooding.
+
+Repeaters cannot join segments with different access methods.
+
+Repeaters do not isolate and filter packets.
+
+Repeaters can connect different types of media.
+
+Repeaters are the most economic way of expanding networks.
+
+A bridge has one input and one output.
+
+Bridges are used to isolate network traffic and computers.
+
+A bridge has the intelligence to examine incoming frame source and destination addresses.
+
+A bridge can reduce traffic on other segments.
+
+A bridge cannot interpret higher-level information.
+
+A bridge cannot filter packets according to protocol.
+
+Bridges work at the Media Access Control Sub-layer of the OSI model, which is Layer 2.
+
+A switching table is built to record the segment number of an address.
+
+The learning phase is when a bridge learns which computers are connected to which segment.
+
+If the destination address is in the same segment as the source address, the bridge stops transmission.
+
+If the destination address is in a different segment, the bridge forwards to the other segment.
+
+Remote bridges can be used to connect remote segments via data-grade telephone line.
+
+Bridges increase the number of attached workstations and network segments.
+
+Bridges are transparent to higher-level protocols because they work at the MAC layer.
+
+Subdividing the LAN into smaller segments increases overall reliability and makes the network easier to maintain.
+
+Some bridges are fault tolerant and can isolate faulty segments and reconfigure paths in the event of failure.
+
+Bridges are not efficient with complex networks.
+
+Broadcasts are forwarded to every connected network segment by bridges.
+
+The buffering of frames introduces network delays in bridges.
+
+Bridges may overload during periods of high traffic.
+
+The self-learning capability of a bridge raises the potential of network loops in networks with many bridges.
+
+A loop presents conflicting information on which segment a specific address is located.
+
+Repeaters work at the physical layer while bridges work at the data link layer.
+
+Repeaters regenerate data at the signal level while bridges regenerate data at the packet level.
+
+Repeaters do not reduce network traffic while bridges do reduce network traffic.
+
+Switches operate at the Data Link layer, which is Layer 2 of the OSI model.
+
+Switches can interpret address information.
+
+Switches resemble bridges and can be considered as multiport bridges.
+
+Switches can better use limited bandwidth and prove more cost-effective than bridges.
+
+Switches divide a network into several isolated channels.
+
+Frames sent from one channel will not go to another channel unless specified.
+
+Each channel in a switch has its own capacity and need not be shared with other channels.
+
+Switches reduce the possibility of collision.
+
+Collision in a switch only occurs when two devices try to get access to one channel.
+
+Collision in a switch can be solved by buffering one of the devices for later access.
+
+Switches are suitable for real-time applications such as video conferencing.
+
+Switches are secure because data will only go to the destination and not to others.
+
+Switches can become overwhelmed by heavy traffic despite containing buffers.
+
+A switch cannot detect collision when the buffer is full.
+
+CSMA/CD scheme will not work in switches since data channels are isolated.
+
+Some higher-level protocols do not detect error, such as UDP.
+
+Data packets are continuously pumped to the switch and introduce more problems.
+
+Switches have two basic architectures: cut-through and store-and-forward.
+
+Cut-through examines the destination MAC address only before forwarding.
+
+Store-and-forward accepts and analyzes the entire frame before forwarding.
+
+Store-and-forward allows the switch to catch certain errors and keep them from propagating.
+
+Cut-through reads the first 14 bytes of each packet and then transmits.
+
+Cut-through is much faster but cannot detect corrupt packets.
+
+Cut-through can propagate corrupt packets to the network.
+
+Cut-through is best suited to small workgroups.
+
+Store-and-forward reads the whole packet before transmitting.
+
+Store-and-forward is slower than cut-through mode.
+
+Store-and-forward is more accurate since corrupt packets can be detected using the FCS.
+
+Store-and-forward is more suited to large LANs since they will not propagate error frames.
+
+Store-and-forward facilitates data transfer between segments of different speed.
+
+Switches can logically group together some ports to form a virtual local area network.
+
+VLAN stands for virtual local area network.
+
+Routers work at the OSI layer 3, which is the network layer.
+
+Routers use the logical address of packets and routing tables to determine the best path for data delivery.
+
+As packets are passed from router to router, data link layer source and destination addresses are stripped off and then recreated.
+
+A router can route a packet between two dissimilar technologies.
+
+Only packets with known network addresses will be passed by a router, hence reducing traffic.
+
+Routers can listen to a network and identify its busiest part.
+
+Routers will select the most cost-effective path for transmitting packets.
+
+Routing tables are formed based on communications between routers using routing protocols.
+
+Routing protocols collect data about current network status and contribute to selection of the best path.
+
+Routers by default will not forward any broadcast or multicast packets.
+
+Routers use the logical address in a network layer header to determine the next hop router.
+
+Routers can use access lists to control security on packets trying to enter or exit an interface.
+
+Two routing protocols are RIP and OSPF.
+
+RIP stands for Routing Information Protocol.
+
+OSPF stands for Open Shortest Path First.
+
+RIP uses the number of hops between nodes to determine the best path.
+
+RIP does not consider network congestion condition.
+
+RIP broadcasts every 30 seconds the routing table to neighbouring routers.
+
+RIP is limited to interpreting a maximum of 16 hops.
+
+RIP is not suitable for large networks such as the Internet.
+
+RIP can create excessive network traffic due to broadcasting.
+
+RIP may take a long time to reach the far reaches.
+
+OSPF makes up the limitations of RIP and can coexist with RIP.
+
+In general, best path in OSPF refers to the shortest path.
+
+In case of traffic congestion, OSPF can go a longer path.
+
+Each router in OSPF maintains a database of other router's links.
+
+If a link failure notice is received, OSPF router can rapidly compute an alternate path.
+
+OSPF requires more memory and CPU power.
+
+Static routers use manual configuration of routes.
+
+Dynamic routers use manual configuration of the first route and automatic discovery of new routes.
+
+Static routers always use the same route.
+
+Dynamic routers can select the best route.
+
+Static routers are more secure.
+
+Dynamic routers need manual configuration to improve security.
+
+Bridges forward everything they don't recognize.
+
+Routers select the best path.
+
+Routers are layer 3 devices which recognize network address.
+
+Bridges are layer 2 devices which look at the MAC sublayer node address.
+
+Layer-3 switches operate in both layer 2 and layer 3.
+
+Layer-3 switches can perform both MAC switching and IP routing.
+
+A layer-3 switch is a combination of switch and router but much faster and easier to configure than a router.
+
+Repeaters are the least expensive way to expand a network but are limited to interconnecting five segments.
+
+Bridges function similar to repeaters but can understand the node addresses.
+
+Switches can be considered as multiport bridges and can divide a network into some logical channels.
+
+Routers interconnect networks and provide filtering functions and can determine the best route.
+
+There is always a finite delay for a signal to propagate from one end of a transmission medium to the other end.
+
+This delay is known as the transmission delay, Tp, of the medium.
+
+In the best circumstance, signals propagate through free space at the speed of light, which is 3x10^8 m/s.
+
+Data is normally transmitted in blocks of bits called frames.
+
+On receipt of a block, an acknowledgement of correct or otherwise receipt is returned to the sender.
+
+Round-trip delay is the time delay between the first bit of a frame being transmitted and the last bit of its associated acknowledgement being received.
+
+Multiplexing is the process used to combine multiple signals for transmission over a single media.
+
+The device that performs multiplexing is called a Multiplexor (MUX).
+
+Signals multiplexed at the sender's end should be demultiplexed at the receiver's end.
+
+Multiplexing and Demultiplexing go in pair.
+
+Multiplexing allows two or more simultaneous transmissions on a single circuit.
+
+Multiplexing is transparent to the end user.
+
+Multiplexing costs less.
+
+Current multiplexing techniques include Frequency Division Multiplexing, Time Division Multiplexing, Synchronous versus Statistical, Wavelength Division Multiplexing, and Code Division Multiplexing.
+
+FDM is the assignment of non-overlapping frequency ranges to each user or signal on a medium.
+
+FDM is a form of signal multiplexing where multiple baseband signals are modulated on different frequency carrier waves.
+
+In FDM, all signals are transmitted at the same time, each using different frequencies.
+
+A multiplexor accepts inputs and assigns frequencies to each device in FDM.
+
+TDM is a method of putting multiple data streams in a single signal by separating the signal into many segments of very short duration.
+
+In TDM, each individual data stream is reassembled at the receiving end based on timing.
+
+
+TDM shares the signal by dividing the available transmission time on a medium among the users.
+
+TDM is exclusively used for digital signaling.
+
+TDM comes in two basic forms: synchronous and statistical or asynchronous.
+
+
+Synchronous TDM accepts input in a round-robin fashion.
+
+Synchronous TDM transmits data in a never-ending pattern.
+
+ISDN telephone lines are common examples of synchronous TDM.
+
+Synchronous TDM line requires as much bandwidth as all the bandwidths of the sources.
+
+Asynchronous or Statistical TDM accepts incoming data streams and creates a frame containing only the data to be transmitted.
+
+Asynchronous TDM transmits only data from active workstations so no space is wasted.
+
+Asynchronous TDM is used for LANs.
+
+A statistical multiplexor does not require a high-speed line because it does not assume all sources will transmit all of the time.
+
+Statistical TDM is good for low bandwidth lines and is used for LANs.
+
+Statistical TDM is a much more efficient use of bandwidth.
+
+WDM stands for Wavelength Division Multiplexing.
+
+WDM multiplexes multiple optical carrier signals on a single optical fiber by using different wavelengths of laser light.
+
+WDM allows for a multiplication in capacity and enables bidirectional communications over one strand of fiber.
+
+WDM gives each message a different wavelength.
+
+WDM is easy to do with fiber optics and optical sources.
+
+WDM is often called Dense Wavelength Division Multiplexing.
+
+WDM multiplexes multiple data streams onto a single fiber optic line.
+
+Different wavelength lasers called lambdas transmit the multiple signals in WDM.
+
+Each signal carried on the fiber in WDM can be transmitted at a different rate.
+
+CDM stands for Code Division Multiplexing.
+
+CDM is also known as Code Division Multiple Access.
+
+CDM allows multiple devices to transmit on the same frequencies at the same time using different codes.
+
+CDM is used for mobile communications.
+
+Frequency Division Multiplexing is simple but works for analog signals only.
+
+Synchronous Time Division Multiplexing is popular with radio, TV, and cable TV and is relatively inexpensive.
+
+Synchronous TDM is limited by frequency ranges.
+
+Statistical Time Division Multiplexing works for digital signals and is relatively simple.
+
+Statistical TDM is commonly used with T-1 and ISDN but wastes bandwidth.
+
+Dense Wavelength Division Multiplexing is a more efficient use of bandwidth and packets can be various sizes.
+
+Dense Wavelength Division Multiplexing is more complex than synchronous TDM.
+
+Dense Wavelength Division Multiplexing provides very high capacities over fiber and is scalable.
+
+Dense Wavelength Division Multiplexing has cost and complexity disadvantages.
+
+Code Division Multiplexing provides large capacities and is scalable but has complexity disadvantages.
+
+Pure ALOHA, slotted ALOHA, CSMA, and CSMA/CD are contention-based protocols.
+
+Contention-based protocols try to transmit, and if a collision occurs, they retry with no guarantee of performance.
+
+Collision-free protocols pay constant attention to overhead to achieve performance guarantees.
+
+Collision-free protocols are good when network load is high.
+
+In Pure ALOHA, a node transmits whenever it has data.
+
+In Pure ALOHA, if a conflict occurs, the node waits for a random time and retries.
+
+Slotted ALOHA divides time into slots with one frame per slot.
+
+
+Slotted ALOHA sends only at the time slot boundary.
+
+Slotted ALOHA has a maximum throughput two times higher than Pure ALOHA.
+
+Slotted ALOHA has less chance to collide.
+
+CSMA stands for Carrier Sense Multiple Access.
+
+Carrier sense means listen to the carrier and act accordingly.
+
+Types of CSMA include persistent, non-persistent, and p-persistent.
+
+In persistent CSMA, a station listens first and sends if no one is there.
+
+In persistent CSMA, if the channel is busy, the station waits and keeps listening until it becomes idle.
+
+Propagation delay is a factor that affects the performance of CSMA.
+
+In non-persistent CSMA, a station listens first and sends if no one is there.
+
+In non-persistent CSMA, if the channel is busy, the station waits a random period of time and repeats.
+
+In p-persistent CSMA, the channel is slotted.
+
+In p-persistent CSMA, if the channel is idle, the station sends with probability p.
+
+In p-persistent CSMA, if the channel is busy, the station waits for a random time and repeats.
+
+Propagation delay has an important effect on the performance of the protocol.
+
+There is a small chance that just after a station begins sending, another station will become ready to send and sense the channel.
+
+If the first station's signal has not yet reached the second one, the latter will sense an idle channel and also begin sending, resulting in a collision.
+
+The longer the propagation delay, the worse the performance of the protocol.
+
+Even if the propagation delay is zero, there will still be collisions.
+
+If two stations become ready in the middle of a third station's transmission, both will wait until the transmission ends and then both will begin transmitting 
+exactly simultaneously, resulting in a collision.
+
+Collisions can still occur during the contention period in CSMA/CD.
+
+Collisions during the contention period adversely affect system performance, especially when the cable is long and the frames are short.
+
+CSMA/CD is not universally applicable.
+
+Collision-free protocols resolve contention for the channel without any collisions, not even during the contention period.
+
+Collision-free protocols assume there are exactly N stations.
+
+Collision-free protocols assume each station has a unique address from 0 to N-1 wired into the network.
+
+Collision-free protocols assume propagation delay is negligible.
+
+Two collision-free protocols are the bit-map method and binary countdown.
+
+In the bit-map protocol, each contention period consists of exactly N slots.
+
+In the bit-map protocol, station j may announce it has a frame to send by inserting a 1 bit into slot j.
+
+In the bit-map protocol, after all N slots have passed, each station has complete knowledge of which stations wish to transmit.
+
+In the bit-map protocol, stations begin transmitting in numerical order.
+
+In the bit-map protocol, since everyone agrees on who goes next, there will never be any collisions.
+
+In the bit-map protocol, after the last ready station has transmitted, another N-bit contention period is begun.
+
+In the bit-map protocol, if a station becomes ready just after its bit slot has passed, it must remain silent until the bit map comes around again.
+
+Protocols in which the desire to transmit is broadcast before the actual transmission are called reservation protocols.
+
+The bit-map protocol has a channel utilization rate of d/(d+1) for high load.
+
+The bit-map protocol has N bits delay for low load.
+
+A problem with the basic bit-map protocol is that the overhead is 1 bit per station, so it does not scale well to networks with thousands of stations.
+
+Binary countdown uses binary station addresses.
+
+In binary countdown, a station wanting to use the channel broadcasts its address as a binary bit string, starting with the high-order bit.
+
+In binary countdown, all addresses are assumed to be the same length.
+
+In binary countdown, the bits in each address position from different stations are BOOLEAN ORed together.
+
+Binary countdown implicitly assumes that transmission delays are negligible.
+
+In binary countdown, as soon as a station sees that a high-order bit position that is 0 in its address has been overwritten with a 1, it gives up.
+
+Binary countdown has a channel utilization rate of d/(d+log(N)) for high load.
+
+Binary countdown has log(N) bits delay for low load.
+
+In binary countdown, the contention field can serve as the address field.
+
+Collision-based protocols are good when the network load is low.
+
+Collision-free protocols are good when the network load is high.
+
+Limited contention protocols combine the advantages of collision-based and collision-free protocols.
+
+Limited contention protocols behave like the ALOHA scheme under light load.
+
+Limited contention protocols behave like the bitmap scheme under heavy load.
+
+Routing is the process of selecting a path in a network along which to send data packets.
+
+Routers use routing tables to determine the best path.
+
+Static routing uses manually configured routes.
+
+Dynamic routing uses routing protocols to update routing tables automatically.
+
+Default routing forwards packets to a default route when no specific path is available.
+
+A routing protocol is a set of rules that defines how routers communicate and share routing information.
+
+Key functions of routing protocols include path determination, topology discovery, route maintenance, and convergence.
+
+Path determination is the process of selecting the best path for forwarding data packets from source to destination.
+
+Path determination uses metrics such as hop count, bandwidth, delay, and cost to evaluate possible routes.
+
+A metric is a numerical value used by routing protocols to determine the best path for forwarding data packets.
+
+OSPF uses Dijkstra's Algorithm for path selection.
+
+RIP uses the Bellman-Ford Algorithm for path selection.
+
+Topology discovery is when routers exchange information to understand the network's structure.
+
+Distance Vector protocols rely on periodic table updates.
+
+Link-State protocols build a complete map of the network.
+
+Topology discovery helps routers detect network changes such as new routers and link failures.
+
+Route maintenance ensures that routing tables remain updated and accurate.
+
+If a network change occurs, routing protocols recalculate paths.
+
+EIGRP uses the Diffusing Update Algorithm to maintain backup routes for quick failover.
+
+Convergence is the process by which all routers update and synchronize their routing tables after a topology change.
+
+Faster convergence is critical to minimize downtime and prevent routing loops.
+
+OSPF converges faster than RIP because it updates only changes instead of sending full tables.
+
+A routing protocol defines how routers communicate and share information.
+
+A routing algorithm determines the best path based on a defined metric.
+
+Examples of routing protocols include RIP, OSPF, EIGRP, and BGP.
+
+Examples of routing algorithms include Dijkstra's Algorithm, Bellman-Ford Algorithm, and Floyd-Warshall Algorithm.
+
+A routing protocol operates at a higher level, managing how routers interact.
+
+A routing algorithm works internally within a protocol to compute paths.
+
+Categories of routing protocols include Distance Vector and Link-State.
+
+Distance Vector routing protocols use hop count as the metric for choosing the best path.
+
+Distance Vector routers share entire routing tables with neighbours at intervals.
+
+Examples of Distance Vector protocols include RIP and IGRP.
+
+RIP has a maximum of 15 hops, making it suitable for small networks.
+
+RIP v1 does not support subnet masks and is classful.
+
+RIP v2 supports subnet masks and is classless.
+
+IGRP is a Cisco proprietary protocol that uses bandwidth and delay as metrics.
+
+Hop count is a routing metric representing the number of routers a packet must pass through to reach its destination.
+
+Hop count does not count the current router where the packet is being processed.
+
+Link-State routing protocols have each router maintain a full map of the network topology.
+
+Link-State routers exchange link-state advertisements instead of full routing tables.
+
+Examples of Link-State protocols include OSPF and IS-IS.
+
+OSPF uses Dijkstra's algorithm for shortest path calculation.
+
+OSPF supports hierarchical design with areas and Area 0 as the backbone.
+
+IS-IS is similar to OSPF but used in large ISP networks.
+
+Hybrid routing protocols combine features of both Distance Vector and Link-State protocols.
+
+EIGRP is a Cisco proprietary hybrid protocol.
+
+EIGRP uses the Diffusing Update Algorithm for fast convergence.
+
+EIGRP maintains a backup route called a feasible successor in addition to the primary route.
+
+When the primary route becomes unavailable, the backup route can immediately take over, minimizing convergence time.
+
+EIGRP supports unequal-cost load balancing.
+
+Unequal-cost load balancing distributes traffic across multiple paths with different costs.
+
+Common metrics used by routing protocols include hop count, bandwidth, delay, and cost.
+
+Hop count is used by RIP.
+
+Bandwidth is used by OSPF and EIGRP.
+
+Delay is used by EIGRP.
+
+Cost is a combination of two or more metrics and is used by OSPF.
+
+Convergence is the time taken for routers to update their routing tables after a topology change.
+
+Faster convergence is preferred to minimize downtime.
+
+Distance Vector protocols such as RIP and IGRP have slower convergence.
+
+Link-State protocols such as OSPF and IS-IS have faster convergence.
+
+Hybrid protocols such as EIGRP balance speed and efficiency.
+
+Interior routing takes place within an organization.
+
+Interior routing uses protocols like OSPF, EIGRP, RIP, and IS-IS for routing between internal routers.
+
+Exterior routing manages communication between organizations or ISPs.
+
+Exterior routing uses BGP for interconnecting autonomous systems.
+
+Interior Gateway Protocols are used inside an autonomous system.
+
+Examples of Interior Gateway Protocols include RIP, OSPF, EIGRP, and IS-IS.
+
+Interior Gateway Protocols are used in corporate and enterprise networks.
+
+Exterior Gateway Protocols are used between autonomous systems.
+
+BGP is an Exterior Gateway Protocol.
+
+Exterior Gateway Protocols are used by Internet Service Providers.
+
+Baud is how many times a signal changes per second.
+
+Bit rate is how many bits can be sent per time unit, usually per second.
+
+Bit rate is controlled by baud and the number of signal levels.
+
+Digital data and digital signal is one of four possible combinations of encoding techniques.
+
+Analog data and digital signal is one of four possible combinations of encoding techniques.
+
+Digital data and analog signal is one of four possible combinations of encoding techniques.
+
+Analog data and analog signal is one of four possible combinations of encoding techniques.
+
+A digital signal consists of discrete, discontinuous voltage pulses.
+
+Each pulse in a digital signal is a signal element.
+
+Binary data is encoded into signal elements.
+
+Unipolar means all signal elements have the same sign.
+
+Polar means one logic state is represented by positive voltage and the other by negative voltage.
+
+Data rate is the rate of data transmission in bits per second.
+
+Duration or length of a bit is the time taken for the transmitter to emit the bit.
+
+Modulation rate is the rate at which the signal level changes.
+
+Modulation rate is measured in baud, which equals signal elements per second.
+
+Mark is binary 1 and space is binary 0.
+
+Interpreting signals requires knowing the timing of bits, when they start and end, and the signal levels.
+
+Factors affecting successful interpreting of signals include signal to noise ratio, data rate, and bandwidth.
+
+Signal spectrum, clocking, error detection, signal interference and noise immunity, and cost and complexity are compared for encoding schemes.
+
+Lack of high frequencies reduces required bandwidth.
+
+Lack of dc component allows ac coupling via transformer, providing isolation.
+
+Concentrating power in the middle of the bandwidth is a consideration for encoding schemes.
+
+Clocking synchronizes transmitter and receiver.
+
+Clocking can use an external clock or a sync mechanism based on the signal.
+
+Error detection can be built into signal encoding.
+
+Some codes are better than others for signal interference and noise immunity.
+
+Higher signal rate and thus data rate lead to higher costs.
+
+Some codes require signal rate greater than data rate.
+
+Encoding schemes include Nonreturn to Zero-Level, Nonreturn to Zero Inverted, Bipolar-AMI, Pseudoternary, Manchester, and Differential Manchester.
+
+Return to zero signal amplitude varies between a positive voltage and zero.
+
+In Return to zero, binary 1 is a constant positive voltage.
+
+In Return to zero, binary 0 is absence of voltage or ground.
+
+In NRZ-L, two different voltages are used for 0 and 1 bits.
+
+In NRZ-L, voltage is constant during the bit interval with no transition and no return to zero voltage.
+
+In NRZI, a constant voltage pulse is used for the duration of the bit.
+
+In NRZI, data is encoded as presence or absence of signal transition at the beginning of bit time.
+
+In NRZI, a transition denotes a binary 1 and no transition denotes a binary 0.
+
+NRZI is an example of differential encoding.
+
+In differential encoding, data is represented by changes rather than levels.
+
+Differential encoding is more reliable for detection of transition rather than level.
+
+In complex transmission layouts, it is easy to lose sense of polarity.
+
+NRZ pros include being easy to engineer and making good use of bandwidth.
+
+NRZ cons include a dc component and lack of synchronization capability.
+
+NRZ is used for magnetic recording but not often used for signal transmission.
+
+Multilevel binary uses more than two levels.
+
+Bipolar-AMI represents zero by no line signal.
+
+Bipolar-AMI represents one by positive or negative pulse.
+
+In Bipolar-AMI, binary 1 pulses alternate in polarity.
+
+Bipolar-AMI benefits include no loss of sync if a long string of ones, no net dc component, lower bandwidth, and easy error detection.
+
+Pseudoternary represents binary 1 by absence of line signal.
+
+Pseudoternary represents binary 0 by alternating positive and negative.
+
+Pseudoternary has no advantage or disadvantage over bipolar-AMI.
+
+Pseudoternary has no loss of sync if a long string of zeros.
+
+Multilevel binary is not as efficient as NRZ because each signal element only represents one bit.
+
+In a 3 level system, each signal element could represent log base 2 of 3, which is 1.58 bits.
+
+The receiver must distinguish between three levels (+A, -A, 0) instead of two in NRZ.
+
+Multilevel binary requires approximately 3dB more signal power for the same probability of bit error.
+
+Biphase techniques include Manchester and Differential Manchester.
+
+Manchester encoding has a transition at the middle of each bit period.
+
+In Manchester encoding, the transition serves as clock and data.
+
+In Manchester encoding, low to high represents binary 1.
+
+In Manchester encoding, high to low represents binary 0.
+
+Manchester encoding is used by IEEE 802.3 Ethernet.
+
+In Differential Manchester, there is always a transition in the middle of the interval.
+
+In Differential Manchester, a transition at the beginning of the interval represents binary 0.
+
+In Differential Manchester, no transition at the beginning of the interval represents binary 1.
+
+Differential Manchester is a differential encoding scheme.
+
+Differential Manchester is used by IEEE 802.5 token ring LAN.
+
+Manchester encoding has at least one transition per bit time and possibly two.
+
+Manchester encoding has a maximum modulation rate that is twice NRZ.
+
+Manchester encoding requires more bandwidth.
+
+Manchester pros include synchronization on mid bit transition which is self clocking.
+
+Manchester pros include no dc component.
+
+Manchester pros include error detection by absence of expected transition.
