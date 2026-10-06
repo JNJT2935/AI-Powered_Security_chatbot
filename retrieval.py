@@ -13,7 +13,7 @@ COLLECTION_NAME = "cybersecurity_knowledge"
 # This MUST be the same embedding model used in ingestion.py.
 MODEL_NAME = "all-MiniLM-L6-v2"
 
-DEFAULT_TOP_K = 5
+DEFAULT_TOP_K = 7
 
 
 # ============================================================

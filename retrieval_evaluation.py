@@ -7,53 +7,53 @@ from retrieval import retrieve
 
 TEST_QUESTIONS = [
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "What is the formal definition of auditing according to professional standards?",
+        "expected_chunks": ["au001"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "What is the relationship between inherent risk, control risk, and residual risk?",
+        "expected_chunks": ["au451", "au452", "au453"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "How do the statutory penalties for unauthorized access to computer data differ from cyberterrorism under the Cybersecurity and Cybercrime Act 2021?",
+        "expected_chunks": ["cy156", "cy1171","cy470","cy496"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "What are Cialdini's original six core principles of persuasion, and what seventh principle was introduced in 2016?",
+        "expected_chunks": ["hu850","hu852"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "What three core principles guide Zero Trust Architecture (ZTA) across enterprise environments, and how does micro-segmentation enforce Zero Trust at the network level?",
+        "expected_chunks": ["se824","hu194","in080"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "How is the CIA Triad defined in security fundamentals, how does an IS audit verify its controls, and what specific technical controls support each element in databases?",
+        "expected_chunks": ["se518", "au053", "au054", "au073"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "How is a digital signature defined legally under the Electronic Transactions Act (ETA 2000), how does it technically operate using asymmetric cryptography and hashing, and how is it implemented in S/MIME email security?",
+        "expected_chunks": ["cy1108","se445","ne369"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "How do Discretionary Access Control (DAC) and Mandatory Access Control (MAC) differ in how permissions are assigned?",
+        "expected_chunks": ["se525","se528"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "How do Spear Phishing and Whaling differ from conventional phishing, what psychological principles drive social engineering attacks, and how do SETA programs mitigate human error?",
+        "expected_chunks": ["hu883","hu886","hu914","hu923","hu913","hu1233"]
     },
 
     {
-        "question": "",
-        "expected_chunks": [""]
+        "question": "What four phases comprise the NIST SP 800-86 digital forensic model, how does the order of evidence volatility dictate collection priorities, and why is the Chain of Custody critical for legal admissibility?",
+        "expected_chunks": ["di054", "cy563", "cy567", "di296"]
     }
 ]
 
