@@ -1,5 +1,5 @@
 """
-llm_answering.py  (Person 3)
+llm_answering.py
 LLM prompt design, grounded answer generation, and groundedness testing.
 
 Public API (what the Streamlit app / other modules should call):
