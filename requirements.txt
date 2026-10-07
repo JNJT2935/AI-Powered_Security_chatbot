@@ -1,2 +1,6 @@
 sentence-transformers
 chromadb
+google-genai
+anthropic
+ollama
+streamlit
