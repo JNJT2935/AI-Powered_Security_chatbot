@@ -1,5 +1,5 @@
 """
-gate_check.py  (Person 3)
+gate_check.py 
 Checks whether the MAX_DISTANCE cut-off separates in-scope from out-of-scope questions.
 No LLM is called, so it uses no API quota and runs in seconds.
 
