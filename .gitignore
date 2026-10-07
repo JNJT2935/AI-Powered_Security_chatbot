@@ -1,3 +1,20 @@
+# Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+
+# Secrets - never commit API keys
+.env
+*.env
+
+# Rebuilt by: py data_ingestion.py
+vector_db/
+
+# Local run output
+safety_results.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
