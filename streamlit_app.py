@@ -6,11 +6,6 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 
-
-# ============================================================
-# LOAD ENVIRONMENT VARIABLES
-# ============================================================
-
 env_path = Path(__file__).parent / ".env"
 load_dotenv(dotenv_path=env_path)
 
@@ -19,20 +14,12 @@ from llm_answering import answer_question
 from quiz_generation import generate_quiz
 
 
-# ============================================================
-# PAGE CONFIGURATION
-# ============================================================
-
 st.set_page_config(
     page_title="AI Security Chatbot",
     page_icon="🛡️",
     layout="centered"
 )
 
-
-# ============================================================
-# INLINE CITATION COMPONENT
-# ============================================================
 
 citation_component = st.components.v2.component(
     name="inline_citations",
@@ -224,10 +211,6 @@ citation_component = st.components.v2.component(
 )
 
 
-# ============================================================
-# DISPLAY ANSWER WITH HOVER REFERENCES
-# ============================================================
-
 def display_answer_with_citations(answer, chunks, key=None):
     """
     Display the AI answer with hoverable [1], [2], [3]
@@ -267,10 +250,6 @@ def display_answer_with_citations(answer, chunks, key=None):
     )
 
 
-# ============================================================
-# SIDEBAR NAVIGATION
-# ============================================================
-
 st.sidebar.title("🛡️ AI Security Learning")
 
 page = st.sidebar.radio(
@@ -282,10 +261,6 @@ page = st.sidebar.radio(
 )
 
 
-# ============================================================
-# CHATBOT
-# ============================================================
-
 if page == "💬 Chatbot":
 
     st.title("🛡️ AI-Powered Security Chatbot")
@@ -295,17 +270,9 @@ if page == "💬 Chatbot":
     )
 
 
-    # --------------------------------------------------------
-    # INITIALISE CHAT HISTORY
-    # --------------------------------------------------------
-
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-
-    # --------------------------------------------------------
-    # DISPLAY PREVIOUS MESSAGES
-    # --------------------------------------------------------
 
     for message_index, message in enumerate(
         st.session_state.messages
@@ -328,10 +295,6 @@ if page == "💬 Chatbot":
                 )
 
 
-    # --------------------------------------------------------
-    # CHAT INPUT
-    # --------------------------------------------------------
-
     if prompt := st.chat_input(
         "Ask a cybersecurity question..."
     ):
@@ -346,10 +309,6 @@ if page == "💬 Chatbot":
             "content": prompt
         })
 
-
-        # ----------------------------------------------------
-        # GENERATE RESPONSE
-        # ----------------------------------------------------
 
         with st.chat_message("assistant"):
 
@@ -374,21 +333,12 @@ if page == "💬 Chatbot":
                         []
                     )
 
-
-                    # ------------------------------------------------
-                    # DISPLAY ANSWER WITH HOVERABLE CITATIONS
-                    # ------------------------------------------------
-
                     display_answer_with_citations(
                         bot_response,
                         chunks,
                         key=f"citation_current_{len(st.session_state.messages)}"
                     )
 
-
-                    # ------------------------------------------------
-                    # SAVE ASSISTANT MESSAGE
-                    # ------------------------------------------------
 
                     st.session_state.messages.append({
                         "role": "assistant",
@@ -404,10 +354,6 @@ if page == "💬 Chatbot":
                     )
 
 
-# ============================================================
-# QUIZ GENERATOR
-# ============================================================
-
 elif page == "📝 Quiz Generator":
 
     st.title("📝 Cybersecurity Quiz Generator")
@@ -417,20 +363,11 @@ elif page == "📝 Quiz Generator":
         "cybersecurity course material."
     )
 
-
-    # --------------------------------------------------------
-    # TOPIC INPUT
-    # --------------------------------------------------------
-
     topic = st.text_input(
         "Enter a cybersecurity topic",
         placeholder="e.g. Network Security, Phishing, Malware"
     )
 
-
-    # --------------------------------------------------------
-    # NUMBER OF QUESTIONS
-    # --------------------------------------------------------
 
     num_questions = st.number_input(
         "Number of questions",
@@ -440,10 +377,6 @@ elif page == "📝 Quiz Generator":
         step=1
     )
 
-
-    # --------------------------------------------------------
-    # GENERATE QUIZ
-    # --------------------------------------------------------
 
     if st.button(
         "Generate Quiz",
@@ -495,10 +428,6 @@ elif page == "📝 Quiz Generator":
                     )
 
 
-    # ========================================================
-    # DISPLAY GENERATED QUIZ
-    # ========================================================
-
     if "quiz" in st.session_state:
 
         st.divider()
@@ -544,10 +473,6 @@ elif page == "📝 Quiz Generator":
         st.divider()
 
 
-        # ----------------------------------------------------
-        # SUBMIT QUIZ
-        # ----------------------------------------------------
-
         if st.button(
             "Submit Quiz",
             type="primary"
@@ -581,10 +506,6 @@ elif page == "📝 Quiz Generator":
 
             st.session_state.quiz_submitted = True
 
-
-        # ====================================================
-        # DISPLAY SCORE
-        # ====================================================
 
         if st.session_state.get(
             "quiz_submitted",
@@ -633,10 +554,6 @@ elif page == "📝 Quiz Generator":
                     f"Keep reviewing the course material!"
                 )
 
-
-            # =================================================
-            # ANSWER REVIEW
-            # =================================================
 
             st.subheader(
                 "Answer Review"
