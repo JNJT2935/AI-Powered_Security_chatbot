@@ -55,7 +55,7 @@ for _stream in (sys.stdout, sys.stderr):
 #   anthropic -> pip install anthropic ; set ANTHROPIC_API_KEY
 # --------------------------------------------------------------------------- #
 PROVIDER = os.environ.get("LLM_PROVIDER", "gemini").lower()
-DEFAULT_MODELS = {"gemini": "gemini-3.8-flash,gemini-2.5-flash",  # tried in order
+DEFAULT_MODELS = {"gemini": "gemini-3.8-flash",  # tried in order
                   "ollama": "llama3.1:8b", "anthropic": "claude-sonnet-5-5"}
 # LLM_MODEL may be one name or a comma-separated fallback chain, e.g.
 #   $env:LLM_MODEL="gemini-3.8-flash,gemini-2.5-flash"
