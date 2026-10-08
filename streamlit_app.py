@@ -241,9 +241,8 @@ elif page == "📝 Quiz Generator":
             st.session_state.quiz_submitted = True
 
 
-        # ====================================================
-        # DISPLAY SCORE
-        # ====================================================
+
+        # DISPLAYING SCORE
 
         if st.session_state.get("quiz_submitted", False):
 
@@ -276,9 +275,7 @@ elif page == "📝 Quiz Generator":
                 )
 
 
-            # =================================================
             # SHOW CORRECT ANSWERS
-            # =================================================
 
             st.subheader("Answer Review")
 
