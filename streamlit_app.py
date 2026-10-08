@@ -177,10 +177,8 @@ elif page == "📝 Quiz Generator":
                     st.error(f"Error generating quiz: {e}")
 
 
-    # ========================================================
-    # DISPLAY GENERATED QUIZ
-    # ========================================================
-
+    # DISPLAYING GENERATED QUIZ
+    
     if "quiz" in st.session_state:
 
         st.divider()
