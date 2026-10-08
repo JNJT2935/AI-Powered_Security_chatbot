@@ -9,7 +9,7 @@ Use result["text"] to get the chunk content.
 Uses Google's Gemini API (google-genai SDK).
 Set the GEMINI_API_KEY environment variable before running.
 """
-
+import time 
 import os
 import json
 from pathlib import Path
@@ -54,24 +54,87 @@ Respond with ONLY a JSON array in this exact format, no other text, no markdown 
 [{{"question": "...", "options": {{"A": "...", "B": "...", "C": "...", "D": "..."}}, "answer": "A"}}]
 
 Text:
-{context}"""
+{context}
+"""
 
-    response = llm_client.models.generate_content(
-        model=MODEL_NAME,
-        contents=prompt,
-        config={"response_mime_type": "application/json"}
-    )
+    # Try the Gemini request up to 3 times.
+    # 503 = temporary service overload/high demand.
+    for attempt in range(3):
 
-    raw = response.text.strip()
-    if raw.startswith("```"):
-        raw = raw.strip("`")
-        if raw.lower().startswith("json"):
-            raw = raw[4:].strip()
+        try:
+            response = llm_client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config={
+                    "response_mime_type": "application/json"
+                }
+            )
 
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError:
-        return []
+            raw = (response.text or "").strip()
+
+            if not raw:
+                return []
+
+            # Remove markdown fences if Gemini happens to add them.
+            if raw.startswith("```"):
+                raw = raw.strip("`")
+
+                if raw.lower().startswith("json"):
+                    raw = raw[4:].strip()
+
+            quiz = json.loads(raw)
+
+            # Basic validation
+            if not isinstance(quiz, list):
+                return []
+
+            valid_questions = []
+
+            for question in quiz:
+                if not isinstance(question, dict):
+                    continue
+
+                if not all(
+                    key in question
+                    for key in ["question", "options", "answer"]
+                ):
+                    continue
+
+                options = question["options"]
+
+                if not isinstance(options, dict):
+                    continue
+
+                if not all(letter in options for letter in ["A", "B", "C", "D"]):
+                    continue
+
+                if question["answer"] not in ["A", "B", "C", "D"]:
+                    continue
+
+                valid_questions.append(question)
+
+            return valid_questions
+
+        except Exception as e:
+
+            error_message = str(e).lower()
+
+            # Gemini is temporarily overloaded.
+            if "503" in error_message or "unavailable" in error_message:
+
+                if attempt < 2:
+                    wait_time = 5 * (attempt + 1)
+
+                    time.sleep(wait_time)
+                    continue
+
+                raise RuntimeError(
+                    "Gemini is currently experiencing high demand. "
+                    "Please wait a little and try generating the quiz again."
+                ) from e
+
+            # Other Gemini/API errors should be shown normally.
+            raise
 
 
 QUIZ_REVIEW_TOPICS = [
